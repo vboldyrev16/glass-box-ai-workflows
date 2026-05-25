@@ -1,6 +1,6 @@
 # Glass-Box AI Workflows
 
-> A Slack-native AI teammate that builds your team's automations. Every workflow it deploys is a normal n8n workflow that the team can open, read, edit, and re-deploy. The agent's job is to build the automation, not to run it. After the build, the workflow lives on its own with zero ongoing token cost. The architecture is six clean layers (User, Orchestration, Agent, Tools, Memory, Foundation) on a small cloud VM with Docker Compose. No vector database, no RAG, no per-seat fees, no managed agent platform.
+> The opposite of building AI agents: one AI agent that builds your team's automations for them. Self-hosted on your servers. Anyone on the team describes what they need in plain words via Slack, and the agent turns the request into a runnable n8n workflow. After the build, the workflow runs on cron with no further AI calls. Developers can reach the same agent through MCP. Six-layer architecture on a small cloud VM with Docker Compose. No vector database, no RAG, no per-seat fees, no managed agent platform.
 
 ## Architecture and documentation
 

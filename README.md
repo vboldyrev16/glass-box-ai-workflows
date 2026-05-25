@@ -1,6 +1,8 @@
 # Glass-Box AI Workflows
 
-A Slack-native AI teammate that builds your team's automations. Every workflow it deploys is transparent, editable, and yours. No black-box agent. No vector database. No per-seat fees.
+**The opposite of building AI agents: one AI agent that builds your team's automations for them.**
+
+Most agent platforms want you to build agents — one per workflow, one per team, one per use case. We do the opposite. One AI agent runs on your servers and in your Slack. Anyone on the team — sales, ops, marketing, support — describes what they need in plain words, and the agent turns it into a runnable n8n workflow. After the build, the workflow runs on cron with no further AI calls. Developers can reach the same agent through MCP. One install, no per-seat, no data leaves your infrastructure.
 
 > If you came here from a talk or a tweet, this is the source. Open the presentation, read this README, and reach out if you want it installed in your team.
 
