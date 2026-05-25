@@ -1,0 +1,24 @@
+# Glass-Box AI Workflows
+
+> A Slack-native AI teammate that builds your team's automations. Every workflow it deploys is a normal n8n workflow that the team can open, read, edit, and re-deploy. The agent's job is to build the automation, not to run it. After the build, the workflow lives on its own with zero ongoing token cost. The architecture is six clean layers (User, Orchestration, Agent, Tools, Memory, Foundation) on a small cloud VM with Docker Compose. No vector database, no RAG, no per-seat fees, no managed agent platform.
+
+## Architecture and documentation
+
+- [README](./README.md): One-paragraph idea, the file map, what ships out of the box, who this is for.
+- [Architecture](./ARCHITECTURE.md): Six layers (User · Orchestration · Agent · Tools · Memory · Foundation). Trust boundaries (LLM never passes identity, audit before mutation, scope gating at every level). What this is not.
+- [Workflows](./WORKFLOWS.md): Eight production-ready templates that ship with the system. The template format (one JSON plus one short markdown spec). What you cannot have (no browser automation, no image generation, no customer-facing chat, no vector DB).
+
+## Installation and pricing
+
+- [Install](./INSTALL.md): What runs on your VM after install. What we need from you. The shape of a typical 1-to-2-day install. What is excluded.
+- [Pricing](./PRICING.md): $2,500 fixed-price for setup plus training plus 30-day support. Three free installation slots for the first teams who commit. Trade for a free slot is one 30-minute interview after 60 days plus permission to anonymize and publish the install pattern.
+- [Case study](./CASE-STUDY.md): The original anonymized case the system grew out of. Two workflows live in production, six more ready to launch. Cost in production around $40 per month all-in. Fully-loaded cost per workflow $5 to $10.
+
+## Meta
+
+- [Contact](./CONTACT.md): Vladimir Boldyrev. LinkedIn linkedin.com/in/vboldyrev16. Email v.boldyrev16@gmail.com. Telegram DM @vboldyrev. Telegram channel @vovacoder.
+- [CLAUDE.md](./CLAUDE.md): Reading order and house rules for Claude Code or other AI assistants reading this repo.
+
+## Watch the talk
+
+- 14-slide presentation: https://glass-box-ai-amber.vercel.app
