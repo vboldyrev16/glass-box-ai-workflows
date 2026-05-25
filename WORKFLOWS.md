@@ -1,8 +1,8 @@
 # Workflows
 
-Eight production-ready templates ship with the system. Each one is a small JSON file plus a markdown spec the agent reads. Together they cover about 80% of the "can you send me X every Y" requests that come up in a small or mid-size company.
+Eight production-ready templates ship with the system. The same one AI agent uses all of them, building automations on demand for anyone on the team. Each template is a small JSON file plus a markdown spec the agent reads. Together they cover about 80% of the "can you send me X every Y" requests that come up in a small or mid-size company.
 
-The interesting part is not these eight specifically. It is the **template format**: any new ask can become a new template in one or two hours of work, and once it exists, every user in the company can invoke it by chatting with the bot.
+The interesting part is not these eight specifically. It is the **template format**: any new ask can become a new template in one or two hours of work, and once it exists, every user in the company can invoke it by chatting with the agent.
 
 ## The eight that ship
 

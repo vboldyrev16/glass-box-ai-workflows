@@ -1,6 +1,6 @@
 # Case Study
 
-This is the original case study that the architecture and the eight workflow templates came out of. The team is anonymized at their request. The numbers and the patterns are real.
+The case study that the architecture and the eight workflow templates came out of. One AI agent, on a single self-hosted install, serving a mid-size operations team across two countries. Anonymized at the team's request. The numbers and the patterns are real.
 
 ## The setup
 

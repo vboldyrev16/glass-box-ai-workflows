@@ -1,6 +1,6 @@
 # Installation
 
-The system is **not open source**. The code is private and stays private. Installation is done by hand, on your infrastructure, by the maintainer. This page describes what that looks like in practice.
+What gets installed is one AI agent and its infrastructure, on your servers, with the eight workflow templates configured for your data. The system is **not open source**. The code is private and stays private. Installation is done by hand, on your infrastructure, by the maintainer. This page describes what that looks like in practice.
 
 ## What ends up running on your side
 

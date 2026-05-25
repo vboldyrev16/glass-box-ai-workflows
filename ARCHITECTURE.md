@@ -1,6 +1,6 @@
 # Architecture
 
-Six layers, each with a clear job and a clear boundary. A request travels from top to bottom and back. New capabilities are added by extending one layer at a time, without touching the others.
+This is the architecture of **one AI agent** that builds workflows for an entire team. Six layers, each with a clear job and a clear boundary. A request travels from top to bottom and back. New capabilities are added by extending one layer at a time, without touching the others.
 
 ```
 1. User           Slack DM and channels · n8n UI · MCP clients (Claude Code, IDE)

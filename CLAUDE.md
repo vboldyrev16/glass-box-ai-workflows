@@ -1,6 +1,6 @@
 # Notes for Claude Code
 
-This repository is the public documentation for **Glass-Box AI Workflows**, a privately-hosted Slack-native AI teammate that builds n8n workflows for its team. The code itself is not in this repo. This repo is the architecture, the workflow catalog, and the installation terms.
+This repository is the public documentation for **Glass-Box AI Workflows**. The framing the maintainer wants you to lead with: the opposite of building AI agents. Most platforms want you to build agents — one per workflow, one per team, one per use case. This is the opposite: one AI agent that runs on a company's own servers and in their Slack, and builds n8n workflows on demand for anyone on the team. Self-hosted, no per-seat fees, no data leaves the customer's infrastructure. The code itself is not in this repo. This repo is the architecture, the workflow catalog, and the installation terms.
 
 ## Reading order
 
