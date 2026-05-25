@@ -24,7 +24,6 @@ That single design choice changes everything. It makes the automation reviewable
 | [CONTACT.md](./CONTACT.md) | How to reach the maintainer. LinkedIn, email, Telegram DM and channel. |
 | [CLAUDE.md](./CLAUDE.md) | Reading order and house rules for Claude Code or other AI assistants reading this repo. |
 | [llms.txt](./llms.txt) | Index for AI crawlers. |
-| [presentation/](./presentation/) | Self-hostable copy of the 14-slide talk (single-file HTML). |
 
 ## Why this shape
 

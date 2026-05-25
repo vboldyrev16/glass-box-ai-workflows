@@ -12,7 +12,7 @@
 
 - [Install](./INSTALL.md): What runs on your VM after install. What we need from you. The shape of a typical 1-to-2-day install. What is excluded.
 - [Pricing](./PRICING.md): $2,500 fixed-price for setup plus training plus 30-day support. Three free installation slots for the first teams who commit. Trade for a free slot is one 30-minute interview after 60 days plus permission to anonymize and publish the install pattern.
-- [Case study](./CASE-STUDY.md): The original anonymized case the system grew out of. Two workflows live in production, six more ready to launch. Cost in production around $40 per month all-in. Fully-loaded cost per workflow $5 to $10.
+- [Case study](./CASE-STUDY.md): The original anonymized case the system grew out of. Two workflows live in production, six more ready to launch. Fully-loaded cost per workflow $5 to $10.
 
 ## Meta
 

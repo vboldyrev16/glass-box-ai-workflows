@@ -52,15 +52,14 @@ Six more templates are tested and ready to activate on cron. Each one is one con
 
 ## Cost in production
 
-Real numbers from a recent month:
+The shape of the numbers, for a small team running two daily workflows and six more ready to activate:
 
-- **Anthropic API spend:** about $0.32 per month. That is for everything, including build conversations.
-- **VM cost:** $40 per month (Hetzner CCX13, comparable to a small AWS instance).
+- **Anthropic API spend:** roughly $5 to $10 once per workflow built, then close to zero per cron run. Build conversations are the dominant cost. Scheduled runs do not call the LLM.
+- **VM cost:** $30 to $50 per month for a small cloud VM (any provider).
 - **n8n license:** free, self-hosted Community edition.
-- **Total monthly operational cost:** roughly $40 per month.
-- **Fully-loaded cost per workflow** (amortized build plus operate plus maintain): $5 to $10. This is the number to use when comparing against per-seat SaaS, because the raw infrastructure underclaims by ignoring the build effort.
+- **Fully-loaded cost per workflow** (amortized build plus operate plus maintain): $5 to $10. Use this number when comparing against per-seat SaaS, the raw infrastructure underclaims by ignoring the build effort.
 
-Two workflows running daily, six more ready to launch, on $40 a month all-in.
+What this replaces, by comparison: Zapier and similar tools charge $20 to $100 per user per month, forever. At a 20-person team that is $5,000 to $24,000 per year. The fixed-infrastructure shape becomes cheaper after the first month.
 
 ## What did not work the first time
 

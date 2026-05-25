@@ -9,7 +9,7 @@ After installation, your team owns and runs:
 - **One Linux VM**, 4 vCPU, 16 GB RAM. Any cloud, or on-prem. AWS, GCP, Azure, Hetzner, DigitalOcean. The VM does not need a public IP, only outbound HTTPS.
 - **Docker Compose** with six containers: the agent runtime, n8n, Postgres, Redis, Nginx, and a Prometheus exporter for metrics.
 - **One Slack app** registered to your workspace, with the bot user added to the channels where it should be available.
-- **One Anthropic API key** owned by you, billed to you. Typical spend is around $30 to $80 per month for a 20-person team at normal usage.
+- **One Anthropic API key** owned by you, billed to you. Tokens are spent during the build conversation (around $5 to $10 per workflow built), not during scheduled runs. A team actively building new workflows runs around $10 to $40 per month, then drops to near zero once the catalog stabilizes.
 - **One n8n workspace** with the eight templates installed and configured for your data.
 
 The maintainer has no ongoing access to your installation after the 30-day support window ends, unless you explicitly extend it.
