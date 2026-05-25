@@ -88,7 +88,8 @@ To save us both time:
 
 - **Not a SaaS.** No monthly subscription. No per-seat pricing. The system runs on your VM and you own it.
 - **Not a free trial.** The free slots are full installations with the full bundle, not a "try it and decide later."
-- **Not a consulting agency.** I do these installations myself. The throughput is one to two per month. If you need a fleet of installations across multiple teams or regions, we can talk about a different shape, but the default is one-by-one.
+
+The default shape is one-by-one installs by hand, throughput around one to two per month. For larger engagements (multiple regions, custom architecture, longer-term collaboration), reach out and we can scope it as consulting on a day-rate or retainer.
 
 ## Questions before you commit
 

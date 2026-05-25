@@ -18,10 +18,10 @@ Glass-Box AI Workflows is maintained by **Vladimir Boldyrev**. Reach out for an 
 - **Fit conversations.** "Will this work for my team?" is a 30-minute call. I will tell you honestly if it does not fit.
 - **Reference intros.** If you want to talk to someone who uses the system in production, I can usually arrange a call.
 - **Architecture questions.** If you are building something similar and want to compare notes, I read DMs.
+- **Consulting and longer engagements.** Reviewing your AI agent strategy, designing a custom architecture, ongoing collaboration. Happy to scope this on a call, day-rate or retainer depending on shape.
 
 ## What I am not
 
-- **A consulting agency.** I do one to two installations a month, by hand. If you need a fleet of installations, we can talk about a different shape, but the default is one-by-one.
 - **A SaaS vendor.** There is no platform. The system runs on your VM.
 - **A 24/7 support line.** The 30-day post-install window is best-effort during business hours.
 
