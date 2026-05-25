@@ -21,4 +21,4 @@
 
 ## Watch the talk
 
-- 14-slide presentation: https://glass-box-ai-amber.vercel.app
+- 14-slide presentation: https://glassbox-en.vercel.app

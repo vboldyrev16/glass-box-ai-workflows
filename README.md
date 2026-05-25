@@ -6,7 +6,7 @@ Most agent platforms want you to build agents — one per workflow, one per team
 
 > If you came here from a talk or a tweet, this is the source. Open the presentation, read this README, and reach out if you want it installed in your team.
 
-**Watch the 14-slide talk:** https://glass-box-ai-amber.vercel.app
+**Watch the 14-slide talk:** https://glassbox-en.vercel.app
 
 ## The idea in one paragraph
 
