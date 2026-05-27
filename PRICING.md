@@ -4,7 +4,7 @@ One package, one price, one decision.
 
 ## The package
 
-**Setup plus training — $2,500 USD, fixed price.**
+**Setup plus training: $2,500 USD, fixed price.**
 
 What that includes:
 

@@ -10,7 +10,7 @@ Glass-Box AI Workflows is maintained by **Vladimir Boldyrev**. Reach out for an 
 
 ## Follow
 
-- **Telegram channel**: [@vovacoder](https://t.me/vovacoder) — ongoing notes on AI agents, automation patterns, and what I am shipping next.
+- **Telegram channel**: [@vovacoder](https://t.me/vovacoder). Ongoing notes on AI agents, automation patterns, and what I am shipping next.
 
 ## What I am happy to help with
 

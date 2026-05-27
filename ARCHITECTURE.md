@@ -57,7 +57,7 @@ What the agent knows. **No vector database, no embeddings, no RAG.**
 - **Curated knowledge.** Wiki pages and team docs are distilled by hand into short summaries. Each file says where the source came from and when it was last refreshed.
 - **Operational state.** RBAC, grants, tokens, audit log, workflow registry, all in a relational database.
 
-The deliberate choice to skip vector DB and RAG comes from operational experience: a small curated knowledge base under your control beats a large embedded one you cannot inspect. When the bot says something wrong, you grep the knowledge file, fix it, the next answer is correct. That feedback loop is what makes the system maintainable.
+We skipped vector DB and RAG on purpose. The reason is operational: a small curated knowledge base under your control beats a large embedded one you cannot inspect. When the bot says something wrong, you grep the knowledge file, fix it, and the next answer is correct. That feedback loop is what makes the system maintainable.
 
 ## Layer 6: Foundation
 
@@ -81,9 +81,9 @@ The boundaries that matter:
 
 ## What this is not
 
-- It is **not** a managed agent platform. You run it. You own the data.
-- It is **not** a chat assistant. The system is for building automations, not for everyday Q&A.
-- It is **not** a vector-search product. The knowledge base is hand-curated markdown.
-- It is **not** vendor lock-in. Each layer is replaceable: swap the LLM provider, swap the workflow engine, swap the database, the contract between layers stays the same.
+- **Not a managed agent platform.** You run it. You own the data.
+- **Not a chat assistant.** The system is for building automations, not for everyday Q&A.
+- **Not a vector-search product.** The knowledge base is hand-curated markdown.
+- **Not vendor lock-in.** Each layer is replaceable: swap the LLM provider, swap the workflow engine, swap the database. The contract between layers stays the same.
 
 The specific prompts, schemas, and the tested workflow templates live in the implementation. See [INSTALL.md](./INSTALL.md) for what shows up after installation, and [WORKFLOWS.md](./WORKFLOWS.md) for the workflow catalog.
